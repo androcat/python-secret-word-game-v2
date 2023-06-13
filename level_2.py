@@ -5,7 +5,7 @@ import random
 
 words = ["kittens", "babies", "puppies", "happy", "nothing", "effervescent"]
 
-secret_word = words[random.randint(0, len(words))]
+secret_word = words[random.randint(0, len(words)-1)]
 secret_word_list = list(secret_word)
 secret_word_set = set(secret_word_list)
 guess_list = []
